@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package assignment1salarycalculator;
 
 /**
@@ -11,11 +7,14 @@ package assignment1salarycalculator;
  */
 public class Assignment1SalaryCalculator {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
         // TODO code application logic here
+            Calculator input = new Calculator();
+                input.HourlyWage(1);
+                input.SalaryPerYear(2080);
+                input.TaxesPerMonth(5);
+                input.MonthlySalaryAfterTax(1000);
     }
     
-}
+    }
